@@ -9,6 +9,6 @@
 8. Setup MFA for Duo by scanning the QR code, enter the code, click "Verify" (it usually works)
     8.a If you can't get past the `Incorrect Code` error, I found deleting the Duo connection and scanning the QR code again to set up a new connection worked
     -  This is the step where i encountered the most frequent `Incorrect code` error even though the code was entered correctly
-9. Sign-out via the <UserProfile/> and to test Account Portal flow full sign-in flow + MFA, try signing in again through Google, and enter the OTP code from Duo, which sometimes works and sometimes doesn't
+9. Sign-out via <UserProfile /> and to test Account Portal flow full sign-in flow + MFA, try signing in again through Google, and enter the OTP code from Duo, which sometimes works and sometimes doesn't
 10. To test the custom flow go to `localhost:3000/sign-in`, sign-in with Google and enter the OTP code
 
